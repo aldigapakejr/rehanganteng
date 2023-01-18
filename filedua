@@ -1,3 +1,24 @@
+#ini codingan rehan
+
+let jarak = 15, totalJarak = 1500, hargaGardu = 3500000,
+    hargaTukang = 100000, tukang = 3, hargaTrafo = 15500000, biayaTeknisi = 500000
+
+let jumlahGardu = totalJarak / jarak
+let totalHargaGardu = jumlahGardu * hargaGardu
+let totalTukang = jumlahGardu * tukang
+let hargaTukangPerHari = hargaTukang * totalTukang
+let waktuPengerjaan = jumlahGardu / 3
+let totalHargaTukang = hargaTukangPerHari * waktuPengerjaan
+let totalBiaya = totalHargaGardu + totalHargaTukang + hargaTrafo + biayaTeknisi
+console.log(totalHargaTukang)
+
+console.log("================================================")
+console.log("\t Rincian Pengerjaan Gardu Listrik")
+console.log("================================================")
+
+console.log("Lama Pengerjaan: " + waktuPengerjaan + " hari")
+console.log("Total Biaya: Rp." + totalBiaya)
+
 ini adalah file kedua
 yayayayay
 inin ninin
